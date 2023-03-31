@@ -1,0 +1,21 @@
+{
+    "name": "ajian/miniprogram",
+    "description": "微信小程序接口sdk",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ajian\\Miniprogram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ajian",
+            "email": "378011843@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "guzzlehttp/guzzle": ">=6.5"
+    }
+}
