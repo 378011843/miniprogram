@@ -1,0 +1,17 @@
+{
+    "name": "ajian/miniprogram",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ajian\\Miniprogram\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ajian",
+            "email": "378011843@qq.com"
+        }
+    ],
+    "require": {}
+}
