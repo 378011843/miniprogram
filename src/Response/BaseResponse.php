@@ -23,8 +23,8 @@ abstract class BaseResponse
     {
         try {
             if ($response->getStatusCode() == 200) {
+                $this->rawData = $response->getBody()->getContents();
                 $content = json_decode($response->getBody()->getContents(), true);
-                $this->rawData = $content;
                 if (isset($content['errmsg'])) {
                     $this->errmsg = $content['errmsg'];
                 }

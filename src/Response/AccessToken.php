@@ -16,4 +16,12 @@ class AccessToken extends BaseResponse
             $this->expires_in = $content['expires_in'];
         }
     }
+
+    public function getAccessToken(){
+        return $this->access_token;
+    }
+
+    public function getExpiresIn(){
+        return $this->expires_in;
+    }
 }

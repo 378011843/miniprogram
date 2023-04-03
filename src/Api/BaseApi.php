@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
 
 abstract class BaseApi
 {
-    protected $client;
+    private $client;
 
     protected function client(){
         if(!$this->client){
